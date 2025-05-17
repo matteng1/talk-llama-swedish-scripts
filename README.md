@@ -25,7 +25,7 @@ cd gguf
 ./download_2.4GiB_unsloth_gemma3_4b_4k_m_qat.sh
 cd ..
 ```
-* Switch voice for text-to-speech with switch_voice.sh if preferred.
+* Switch voice for text-to-speech if preferred (default is Lisa).
 ```shell
 ./switch_voice.sh
 ```
