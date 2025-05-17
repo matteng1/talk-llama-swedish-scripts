@@ -2,6 +2,7 @@
 Bash scripts for installing, compiling and running the whisper.cpp talk-llama example with swedish tts and stt. <br />
 Works on debian PC.
 ## Prerequisites
+* Connected and working microphone
 * Working aplay for text-to-speech
 * Cuda installed if using an Nvidia GPU
 ## Install
