@@ -1,6 +1,6 @@
 # talk-llama-swedish-scripts
 Bash scripts for installing, compiling and running the whisper.cpp talk-llama example with swedish tts and stt. <br />
-Works on debian.
+Works on debian PC.
 ## Prerequisites
 * Working aplay for text-to-speech
 * Cuda installed if using an Nvidia GPU
