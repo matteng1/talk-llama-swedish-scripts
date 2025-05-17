@@ -10,9 +10,9 @@ Works on debian.
 ```shell
 mkdir talk-llama-swedish && cd talk-llama-swedish
 
-wget https://github.com/matteng1/talk-llama-swedish-scripts/blob/main/install.sh
-wget https://github.com/matteng1/talk-llama-swedish-scripts/blob/main/switch_voice.sh
-wget https://github.com/matteng1/talk-llama-swedish-scripts/blob/main/run.sh
+wget https://github.com/matteng1/talk-llama-swedish-scripts/raw/refs/heads/main/install.sh
+wget https://github.com/matteng1/talk-llama-swedish-scripts/raw/refs/heads/main/switch_voice.sh
+wget https://github.com/matteng1/talk-llama-swedish-scripts/raw/refs/heads/main/run.sh
 chmod +x *.sh
 ```
 * Run install.sh, which will download approximately 1 GiB of swedish stt and tts models.
