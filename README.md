@@ -1,5 +1,5 @@
 # talk-llama-swedish-scripts
-Bash scripts for installing, compiling and running the whisper.cpp talk-llama example with swedish tts and stt. <br />
+Bash scripts for downloading, compiling and running the whisper.cpp talk-llama example with swedish tts and stt. <br />
 Works on debian PC.
 ## Prerequisites
 * Connected and working microphone
