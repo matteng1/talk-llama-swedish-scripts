@@ -3,7 +3,7 @@ Bash scripts for downloading, compiling and running the whisper.cpp talk-llama e
 Works on debian PC.
 ## Prerequisites
 * Connected and working microphone
-* SDL2 for microphone (sudo apt-get install libsdl2-dev)
+* SDL2 for microphone. Install script will try to install it (sudo apt-get install libsdl2-dev), but on resource-constrained devices you may want to install it yourself.
 * Working aplay for text-to-speech
 * Cuda installed if using an Nvidia GPU
 ## Install
