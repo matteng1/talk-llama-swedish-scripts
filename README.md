@@ -10,11 +10,15 @@ Works on debian PC.
 **NOTE: Bash only.**
 * Download the three scripts to a suitable folder.
 ```shell
+# Create directory and enter it
 mkdir talk-llama-swedish && cd talk-llama-swedish
 
+# Download scripts
 wget https://github.com/matteng1/talk-llama-swedish-scripts/raw/refs/heads/main/install.sh
 wget https://github.com/matteng1/talk-llama-swedish-scripts/raw/refs/heads/main/switch_voice.sh
 wget https://github.com/matteng1/talk-llama-swedish-scripts/raw/refs/heads/main/run.sh
+
+# Make them executable
 chmod +x *.sh
 ```
 * Run install.sh, which will download approximately 1 GiB of swedish stt and tts models.
