@@ -70,6 +70,8 @@ wget https://github.com/rhasspy/piper/releases/latest/download/piper_linux_$(una
 tar -xf piper_*.tar.gz && rm piper_*.tar.gz
 # Voices. Lisa and Nst
 mkdir -p ./piper/voices
+curl -L -o ./piper/voices/alma.onnx https://huggingface.co/rhasspy/piper-voices/resolve/main/sv/sv_SE/alma/medium/sv_SE-alma-medium.onnx
+curl -L -o ./piper/voices/alma.onnx.json https://huggingface.co/rhasspy/piper-voices/resolve/main/sv/sv_SE/alma/medium/sv_SE-alma-medium.onnx.json
 curl -L -o ./piper/voices/lisa.onnx https://huggingface.co/rhasspy/piper-voices/resolve/main/sv/sv_SE/lisa/medium/sv_SE-lisa-medium.onnx
 curl -L -o ./piper/voices/lisa.onnx.json https://huggingface.co/rhasspy/piper-voices/resolve/main/sv/sv_SE/lisa/medium/sv_SE-lisa-medium.onnx.json
 curl -L -o ./piper/voices/nst.onnx https://huggingface.co/rhasspy/piper-voices/resolve/main/sv/sv_SE/nst/medium/sv_SE-nst-medium.onnx
